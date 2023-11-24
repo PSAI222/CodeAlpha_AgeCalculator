@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #c58686;
+  }
+
+  h1 {
+    color: #0cd31c;
+    font-size: xx-large;
+    background-color: #313131;
+    padding: 20px;
+    margin: 0;
+  }
+
+  #ageForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+  }
+
+  label {
+    margin-bottom: 8px;
+    color: #333;
+  }
+
+  input {
+    padding: 8px;
+    margin-bottom: 16px;
+    width: 80px;
+  }
+
+  button {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+
+  button:hover {
+    background-color: #0213cd;
+  }
+
+  #result {
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: xx-large;
+    color: #060eef;
+  }
